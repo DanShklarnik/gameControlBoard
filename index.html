@@ -13,10 +13,9 @@
                     <h3>Home</h3>
                     <h1 id="home-score">0</h1>
                     <div class="points-controller">
-                        <button class="add-point" id="add1"> +1 </button>
-                        <button class="add-point" id="add2"> +2 </button>
-                        <button class="add-point" id="add3"> +3 </button>
-
+                        <button class="add-point" id="add1" onclick="addScore(document.getElementById('home-score').textContent,1, 0)"> +1 </button>
+                        <button class="add-point" id="add2" onclick="addScore(document.getElementById('home-score').textContent,2, 0)"> +2 </button>
+                        <button class="add-point" id="add3" onclick="addScore(document.getElementById('home-score').textContent,3, 0)"> +3 </button>
                     </div>
                 </div>
 
