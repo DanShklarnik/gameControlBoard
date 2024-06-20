@@ -1,0 +1,23 @@
+body{
+    background-image: url("./images/olimpic.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display:flex;
+    flex-direction: row;
+    margin:10% auto auto;
+    padding: 20px 40px;
+    width: 700px;
+    background: linear-gradient(blue, white);
+    
+}
+
+.scores{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
