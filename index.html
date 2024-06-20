@@ -1,6 +1,10 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </head>
     <body>
         <div class="container">
@@ -20,15 +24,15 @@
                     <h3>Guest</h3>
                     <h1 id="guest-score">0</h1>
                     <div class="points-controller">
-                        <button class="add-point" id="add1"> +1 </button>
-                        <button class="add-point" id="add2"> +2 </button>
-                        <button class="add-point" id="add3"> +3 </button>
-                        
+                        <button class="add-point" id="add1" onclick="addScore(document.getElementById('guest-score').textContent,1)"> +1 </button>
+                        <button class="add-point" id="add2" onclick="addScore(document.getElementById('guest-score').textContent,2)"> +2 </button>
+                        <button class="add-point" id="add3" onclick="addScore(document.getElementById('guest-score').textContent,3)"> +3 </button>
                     </div>
                 </div>
             </div>
 
         </div>
+        <skript src="index.js"></skript>
     </body>
 </html
     
